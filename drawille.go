@@ -90,7 +90,7 @@ func (c *Canvas) Clear() {
 
 // Convert x,y to cols, rows
 func (c Canvas) get_pos(x, y int) (int, int) {
-	return (x / 2), (y / 4)
+	return int(math.Floor(float64(x) / 2.0)), int(math.Floor(float64(y) / 4.0))
 }
 
 // Set a pixel of c

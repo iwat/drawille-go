@@ -107,3 +107,10 @@ func TestDrawLineDiagonalNonSquare(t *testing.T) {
 	assert.True(t, c.Get(1, 2))
 	assert.True(t, c.Get(2, 3))
 }
+
+func TestDrawLineDiagonalFloat(t *testing.T) {
+	c := NewCanvas()
+	c.Set(-3, 0)
+	c.Set(-2, 1)
+	assert.Equal(t, "\u2808\u2802", c.Rows(-4, 0, -2, 1)[0])
+}
