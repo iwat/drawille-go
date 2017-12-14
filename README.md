@@ -21,4 +21,5 @@ along with drawille-go. If not, see < http://www.gnu.org/licenses/ >.
 
 (C) 2014 by Adam Tauber, <asciimoo@gmail.com>
 (C) 2014 by Jacob Hughes, <exrook.j@gmail.com>
+(C) 2017 by Chaiwat Shuetrakoonpaiboon, <iwatth@gmail.com>
 ```
